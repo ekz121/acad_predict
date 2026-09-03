@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const BASE_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8001'
+const BASE_URL = import.meta.env.VITE_API_URL || 'https://acadbackend.zeabur.app'
 
 const api = axios.create({
   baseURL: BASE_URL,
